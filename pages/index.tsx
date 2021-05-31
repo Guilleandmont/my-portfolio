@@ -1,9 +1,10 @@
 import Head from "next/head";
+import Layout from "../components/Layout";
 
 export default function Home() {
   return (
-    <div className="text-bold text-indigo-800 text-3xl p-4">
-      Welcome to my future portfolio
-    </div>
+    <Layout>
+      <p className="text-red-800 text-xl">Welcome to my future portfolio</p>
+    </Layout>
   );
 }
