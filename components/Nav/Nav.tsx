@@ -3,7 +3,7 @@ import Link from "next/link";
 const Nav = () => {
   return (
     <nav>
-      <ul className="flex space-x-2">
+      <ul className="flex space-x-2 md:space-x-12">
         <li>
           <Link href="#">
             <a>about</a>

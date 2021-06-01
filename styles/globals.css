@@ -5,6 +5,9 @@
 @tailwind utilities;
 
 @layer base {
+  * {
+    color: #101028;
+  }
   a {
     @apply font-mono font-bold;
   }
