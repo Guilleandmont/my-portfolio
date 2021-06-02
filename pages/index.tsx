@@ -12,6 +12,13 @@ export default function Home() {
       </header>
       <main>
         <Social />
+        <p className="text-xl text-bold text-indigo-500 mb-2">
+          Hi, I'm Guillermo
+        </p>
+        <p className="mb-8">Scientist and full-stack developer</p>
+        <h1 className="text-3xl md:text-6xl font-bold">
+          Let's make the web more awesome!
+        </h1>
       </main>
     </Layout>
   );
