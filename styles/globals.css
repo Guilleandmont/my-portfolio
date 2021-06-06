@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Fira+Sans:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,700;1,500&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,11 +7,6 @@
 @layer base {
   * {
     color: #101028;
-  }
-  a {
-    @apply font-mono font-bold;
-  }
-  a:hover {
-    @apply text-indigo-500;
+    box-sizing: border-box;
   }
 }
