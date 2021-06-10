@@ -11,7 +11,7 @@ export default function Home() {
       <main>
         <section>
           <h1>Hi, I'm Guillermo</h1>
-          <p>
+          <p className="text-lg md:text-xl text-gray-600 mb-12">
             Full-stack scientist and developer. I love doing things the
             challenging way.
           </p>

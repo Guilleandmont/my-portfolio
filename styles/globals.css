@@ -7,10 +7,23 @@
 @layer base {
   * {
     color: #101028;
+    line-height: 1.3;
     box-sizing: border-box;
   }
 
   body {
     min-width: 100vw;
+  }
+
+  h1 {
+    @apply text-3xl md:text-6xl mb-6;
+  }
+
+  h2 {
+    @apply text-xl md:text-3xl mb-6;
+  }
+
+  p {
+    @apply mb-6;
   }
 }
