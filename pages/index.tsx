@@ -18,7 +18,7 @@ export default function Home() {
         </section>
         <section>
           <h2>About me</h2>
-          <p>
+          <p className="mb-24">
             I’m a biology undergraduate student at UCV, Venezuela. When i’m not
             studying, I’m creating things with computers. I love to learn deeply
             about these technologies and creating cool stuff with them.
@@ -26,7 +26,7 @@ export default function Home() {
         </section>
         <section>
           <h2>Contact me</h2>
-          <p>
+          <p className="mb-24">
             This site is under construction, meanwhile, send me a message
             through one of these!
           </p>

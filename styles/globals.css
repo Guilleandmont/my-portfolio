@@ -23,6 +23,13 @@
     @apply text-xl md:text-3xl mb-6;
   }
 
+  h2::after {
+    content: "";
+    display: block;
+    width: 80vw;
+    @apply h-0.5 bg-gray-300 mt-4;
+  }
+
   p {
     @apply mb-6;
   }
